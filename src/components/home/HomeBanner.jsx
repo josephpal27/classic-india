@@ -2,7 +2,7 @@
 const HomeBanner = () => {
     return (
         <section className="
-            relative px-[1rem]
+            relative px-[1%]
         ">
             <img 
                 src="/images/banners/home-banner.png" 
@@ -15,6 +15,7 @@ const HomeBanner = () => {
             />
             <div className="
                 w-full h-full absolute top-0 left-0 flex flex-col justify-end items-center text-white 
+                px-[6%]
                 pb-[7rem]
             ">
                 <h1>
@@ -22,7 +23,7 @@ const HomeBanner = () => {
                 </h1>
                 <p className="
                     mt-[1rem]
-                    text-center w-[60%]
+                    text-center w-[70%]
                 ">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore mollitia blanditiis dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis ab. Provident, quae.
                 </p>

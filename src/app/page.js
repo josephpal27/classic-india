@@ -1,5 +1,6 @@
 import Collections from "@/components/home/Collections";
 import HomeBanner from "@/components/home/HomeBanner";
+import LatestBlogs from "@/components/home/LatestBlogs";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HomeBanner />
       <Collections />
       <WhyChooseUs />
+      <LatestBlogs />
     </>
   );
 }

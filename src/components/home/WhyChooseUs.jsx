@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
     return (
         <section className="
             mt-[4rem]
-            px-[1rem]
+            px-[1%]
         ">
             <div className="
                 flex justify-between items-center flex-wrap bg-secondary
