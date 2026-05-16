@@ -102,7 +102,7 @@ const Navbar = () => {
                                             rounded-full transition-colors duration-200
                                         ${isActive
                                                 ? "bg-primary text-white"
-                                                : "text-black hover:bg-[#f1f1f1]"
+                                                : "text-black hover:bg-secondary"
                                             }`}
                                         >
                                         {link.name}
