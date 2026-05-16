@@ -17,7 +17,7 @@ const HomeBanner = () => {
                 w-full h-full absolute top-0 left-0 flex flex-col justify-end items-center text-white 
                 pb-[7rem]
             ">
-                <h1 className="">
+                <h1>
                     Lorem ipsum dolor sit
                 </h1>
                 <p className="

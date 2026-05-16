@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         oliGrostesk: "var(--font-oliGrostesk)",
       },
+      colors: {
+        primary: "#c7153b",
+      },
     },
   },
   plugins: [],

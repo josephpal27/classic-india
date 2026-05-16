@@ -101,7 +101,7 @@ const Navbar = () => {
                                             py-[0.5rem]
                                             rounded-full transition-colors duration-200
                                         ${isActive
-                                                ? "bg-[#c7153b] text-white"
+                                                ? "bg-primary text-white"
                                                 : "text-black hover:bg-[#f1f1f1]"
                                             }`}
                                         >
@@ -117,7 +117,7 @@ const Navbar = () => {
                         <Link
                             href="/contact/"
                             className="
-                                bg-[#c7153b] hover:bg-[#a90b2d] text-white 
+                                bg-primary hover:bg-[#a90b2d] text-white 
                                 px-5 
                                 py-2.5 
                                 rounded-full transition-colors duration-200
@@ -162,7 +162,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="p-[1rem] mt-[0.5rem]" onClick={() => setOpen(false)}>
-                    <Link href="/contact/" className="bg-[#c7153b] text-white font-semibold px-5 py-2.5 rounded-full">
+                    <Link href="/contact/" className="bg-primary text-white font-semibold px-5 py-2.5 rounded-full">
                         Get In Touch
                     </Link>
                 </div>
