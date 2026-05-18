@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const oliGrostesk = localFont({
   src: "../../public/fonts/Oli Grotesk L Regular.woff2",
@@ -19,6 +20,7 @@ export default function RootLayout({ children }) {
         <Navbar />
         <div className="mt-[105px]"></div>
         {children}
+        <Footer />
       </body>
     </html>
   );

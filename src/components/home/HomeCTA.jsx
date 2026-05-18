@@ -4,7 +4,7 @@ const HomeCTA = () => {
     return (
         <section className="
             mt-[17rem]
-            mb-[4rem]
+            mb-[5rem]
             px-[1%]
         ">
             <div className="
@@ -39,7 +39,7 @@ const HomeCTA = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum nemo incidunt nesciunt, harum suscipit vitae asperiores quos tenetur dicta. Lorem ipsum dolor.
                     </p>
                     <div className="mt-[2rem]">
-                        <Button />
+                        <Button label="Read More" />
                     </div>
                 </div>
             </div>

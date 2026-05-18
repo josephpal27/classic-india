@@ -76,7 +76,7 @@ const LatestBlogs = () => {
                                 <div className="
                                     mt-[1.5rem]
                                 ">
-                                    <Button />
+                                    <Button label="Read More" />
                                 </div>
                             </div>
                         </div>

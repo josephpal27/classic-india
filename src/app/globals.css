@@ -27,3 +27,9 @@ p, a, li {
 section {
     @apply px-[7%]
 }
+
+/* Footer Start */
+footer a{
+    @apply block mb-[0.5rem] hover:text-primary
+}
+/* Footer End */
