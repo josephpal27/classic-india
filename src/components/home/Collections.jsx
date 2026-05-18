@@ -66,7 +66,7 @@ const Collections = () => {
                         </li>
                     </ol>
                     <div className="text-primary mt-[2rem]">
-                        <Button label="Explore" />
+                        <Button label="Explore" color="var(--primary)" />
                     </div>
                 </div>
             </div>

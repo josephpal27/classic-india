@@ -39,7 +39,7 @@ const HomeCTA = () => {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum nemo incidunt nesciunt, harum suscipit vitae asperiores quos tenetur dicta. Lorem ipsum dolor.
                     </p>
                     <div className="mt-[2rem]">
-                        <Button label="Read More" />
+                        <Button label="Read More" color="white" />
                     </div>
                 </div>
             </div>

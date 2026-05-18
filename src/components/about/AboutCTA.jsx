@@ -1,0 +1,39 @@
+import Button from "../Button"
+
+const AboutCTA = () => {
+    return (
+        <section className="
+            px-[1%]
+            mb-[5rem]
+        ">
+            <div className="
+                flex justify-between items-center flex-wrap bg-secondary
+                rounded-[30px]
+                px-[6%]
+                py-[4rem]
+            ">
+                <div className="w-[35%]">
+                    <img
+                        src="/images/phone.jpg"
+                        alt="Phone"
+                        loading="lazy"
+                        className="w-full rounded-[30px]"
+                    />
+                </div>
+                <div className="w-[60%]">
+                    <h4 className="text-primary">
+                        Get In Touch
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis ab. Provident, quae.
+                    </p>
+                    <div className="text-primary mt-[2rem]">
+                        <Button label="Contact Now" color="var(--primary)" />
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
+
+export default AboutCTA

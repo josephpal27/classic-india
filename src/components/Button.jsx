@@ -1,8 +1,8 @@
 import { FaCircleChevronRight } from "react-icons/fa6";
 
-const Button = ({label}) => {
+const Button = ({label, color}) => {
     return (
-        <button className={`
+        <button style={{ borderColor: color }} className={`
             flex items-center border-[2px] px-[1rem] py-[0.4rem] rounded-full group
             text-[1.1rem]
         `}>
