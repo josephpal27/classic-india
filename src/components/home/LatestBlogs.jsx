@@ -30,9 +30,9 @@ const LatestBlogs = () => {
             <div className="
                 flex flex-col items-center justify-center
             ">
-                <h2 className="text-primary">
+                <h4 className="text-primary">
                     Latest Blogs
-                </h2>
+                </h4>
                 <p className="
                     mt-[0.5rem]
                     text-center w-[70%]
