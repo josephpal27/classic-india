@@ -1,13 +1,18 @@
+import { productsData } from "@/data/productsData"
 
 const ProductsListing = () => {
     return (
         <section className="
-            pt-[4rem]
+            py-[4rem]
             flex justify-between flex-wrap
         ">
 
             {/* Categories */}
-            <div>
+            <div className="
+                w-[30%]
+                bg-secondary rounded-[20px]
+                p-[2rem]
+            ">
                 <span>
                     Categories
                 </span>
@@ -19,8 +24,25 @@ const ProductsListing = () => {
             </div>
 
             {/* Products */}
-            <div>
-
+            <div className="
+                w-[67%] flex flex-wrap gap-[2%]
+            ">
+                {productsData.map((product, index) => {
+                    return (
+                        <div key={index} className="
+                            w-[32%] bg-secondary rounded-[20px]
+                            p-[1.5rem]
+                            mb-[1rem]
+                        ">
+                            <img 
+                                src={product.image} 
+                                alt={product.title}
+                                loading="lazy"
+                                className="w-full"
+                            />
+                        </div>
+                    )
+                })}
             </div>
 
         </section>
