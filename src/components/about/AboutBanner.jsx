@@ -6,7 +6,7 @@ const AboutBanner = () => {
         ">
             <img
                 src="/images/banners/about-banner.png"
-                alt="Home Banner"
+                alt="About Banner"
                 loading="lazy"
                 className="
                     w-full h-[90dvh] object-cover
