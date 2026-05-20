@@ -4,6 +4,8 @@ import { useState } from "react";
 import { productsData } from "@/data/productsData";
 import { categoryData } from "@/data/categoryData";
 import Button from "../Button";
+import { LuSearchX } from "react-icons/lu";
+import Link from "next/link";
 
 const ProductsListing = () => {
 
@@ -43,9 +45,9 @@ const ProductsListing = () => {
                                     cursor-pointer transition
                                     text-[1rem]
                                     ${activeCategory === category.id
-                                    ? "text-primary font-bold"
-                                    : "hover:text-primary"
-                                }
+                                        ? "text-primary font-bold"
+                                        : "hover:text-primary"
+                                    }
                             `}>
                                 {category.name}
                             </li>
@@ -60,17 +62,22 @@ const ProductsListing = () => {
             ">
                 {filteredProducts.length > 0 ? (
                     filteredProducts.map((product, index) => (
-                        <div key={index} className="
-                            w-[32%] h-max bg-secondary rounded-[20px]
+                        <Link href={`/products/${product.id}`} key={index} className="
+                            w-[32%] h-max bg-secondary hover:bg-[#e6e2ce] transition duration-300
+                            rounded-[20px] 
                             p-[1rem]
-                            mb-[0.5rem]
+                            mb-[0.3rem]
+                            group
                         ">
                             <div className="rounded-[15px] overflow-hidden">
                                 <img
                                     src={product.image}
                                     alt={product.title}
                                     loading="lazy"
-                                    className="w-full aspect-[4/3] object-cover"
+                                    className="
+                                        w-full aspect-[4/3] object-cover 
+                                        group-hover:scale-105 transition-transform duration-500
+                                    "
                                 />
                             </div>
                             <span className="text-[1.2rem] font-bold block mt-[1rem]">
@@ -82,12 +89,16 @@ const ProductsListing = () => {
                             <div className="text-primary mt-[0.8rem]">
                                 <Button label="Explore" color="var(--primary)" className="scale-[0.8] ml-[-0.7rem]" />
                             </div>
-                        </div>
+                        </Link>
                     ))
                 ) : (
-                    <div className="w-full flex items-center justify-center py-[4rem]">
+                    <div className="w-full flex flex-col items-center justify-center py-[4rem]">
+                        <LuSearchX className="
+                            text-[2.5rem] opacity-50
+                        " />
                         <p className="
                             text-[1rem] opacity-50 text-center
+                            mt-[1rem]
                         ">
                             No Products Found in this Category...
                         </p>
