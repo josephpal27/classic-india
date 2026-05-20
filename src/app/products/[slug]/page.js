@@ -45,7 +45,7 @@ export default async function ProductDetails({ params }) {
   return (
     <>
       <ProductDetailsBanner />
-      <ProductGallery />
+      <ProductGallery product={product} />
     </>
   );
 }

@@ -71,7 +71,7 @@ const ProductsListing = () => {
                         ">
                             <div className="rounded-[15px] overflow-hidden">
                                 <img
-                                    src={product.image}
+                                    src={product.images[0]}
                                     alt={product.title}
                                     loading="lazy"
                                     className="
