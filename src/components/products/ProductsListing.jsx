@@ -75,7 +75,7 @@ const ProductsListing = () => {
                                     alt={product.title}
                                     loading="lazy"
                                     className="
-                                        w-full aspect-[4/3] object-cover 
+                                        w-full aspect-[3/2] object-cover 
                                         group-hover:scale-105 transition-transform duration-500
                                     "
                                 />

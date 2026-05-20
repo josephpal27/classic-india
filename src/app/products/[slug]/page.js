@@ -1,6 +1,7 @@
 import { productsData } from "@/data/productsData";
 import { notFound } from "next/navigation";
 import ProductDetailsBanner from "@/components/products/ProductDetailsBanner";
+import ProductGallery from "@/components/products/ProductGallery";
 
 // Generate static pages
 export async function generateStaticParams() {
@@ -44,6 +45,7 @@ export default async function ProductDetails({ params }) {
   return (
     <>
       <ProductDetailsBanner />
+      <ProductGallery />
     </>
   );
 }
