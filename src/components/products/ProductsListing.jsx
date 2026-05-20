@@ -62,7 +62,7 @@ const ProductsListing = () => {
             ">
                 {filteredProducts.length > 0 ? (
                     filteredProducts.map((product, index) => (
-                        <Link href={`/products/${product.id}`} key={index} className="
+                        <Link href={`/products/${product.slug}`} key={index} className="
                             w-[32%] h-max bg-secondary hover:bg-[#e6e2ce] transition duration-300
                             rounded-[20px] 
                             p-[1rem]

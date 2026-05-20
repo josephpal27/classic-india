@@ -2,6 +2,7 @@ export const productsData = [
     {
         id: 1,
         categoryId: 2,
+        slug: "product-1",
         image: "/images/products/1.png",
         title: "Product 1",
         desc: "Lorem ipsum dolor, sit amet tetur sit adipisicing amet dolor elit.",
@@ -9,6 +10,7 @@ export const productsData = [
     {
         id: 2,
         categoryId: 3,
+        slug: "product-2",
         image: "/images/products/1.png",
         title: "Product 2",
         desc: "Lorem ipsum dolor, sit amet tetur sit adipisicing amet dolor elit.",
@@ -16,6 +18,7 @@ export const productsData = [
     {
         id: 3,
         categoryId: 2,
+        slug: "product-3",
         image: "/images/products/1.png",
         title: "Product 3",
         desc: "Lorem ipsum dolor, sit amet tetur sit adipisicing amet dolor elit.",
@@ -23,6 +26,7 @@ export const productsData = [
     {
         id: 4,
         categoryId: 4,
+        slug: "product-4",
         image: "/images/products/1.png",
         title: "Product 4",
         desc: "Lorem ipsum dolor, sit amet tetur sit adipisicing amet dolor elit.",
@@ -30,6 +34,7 @@ export const productsData = [
     {
         id: 5,
         categoryId: 5,
+        slug: "product-5",
         image: "/images/products/1.png",
         title: "Product 5",
         desc: "Lorem ipsum dolor, sit amet tetur sit adipisicing amet dolor elit.",
