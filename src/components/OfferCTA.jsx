@@ -1,6 +1,6 @@
-import Button from "../Button"
+import Button from "./Button"
 
-const HomeCTA = () => {
+const OfferCTA = () => {
     return (
         <section className="
             mt-[17rem]
@@ -47,4 +47,4 @@ const HomeCTA = () => {
     )
 }
 
-export default HomeCTA
+export default OfferCTA

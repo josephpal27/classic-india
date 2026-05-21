@@ -1,6 +1,6 @@
 import Button from "../Button"
 
-const AboutCTA = () => {
+const GetInTouchCTA = () => {
     return (
         <section className="
             px-[1%]
@@ -36,4 +36,4 @@ const AboutCTA = () => {
     )
 }
 
-export default AboutCTA
+export default GetInTouchCTA

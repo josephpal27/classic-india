@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import ProductDetailsBanner from "@/components/products/ProductDetailsBanner";
 import ProductGallery from "@/components/products/ProductGallery";
 import MostPrintedProducts from "@/components/products/MostPrintedProducts";
-import HomeCTA from "@/components/home/HomeCTA";
+import OfferCTA from "@/components/OfferCTA";
 
 // Generate static pages
 export async function generateStaticParams() {
@@ -49,7 +49,7 @@ export default async function ProductDetails({ params }) {
       <ProductDetailsBanner />
       <ProductGallery product={product} />
       <MostPrintedProducts />
-      <HomeCTA />
+      <OfferCTA />
     </>
   );
 }
