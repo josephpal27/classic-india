@@ -5,7 +5,7 @@ const ProductsBanner = () => {
             relative px-[1%]
         ">
             <img
-                src="/images/banners/about-banner.png"
+                src="/images/banners/products-banner.png"
                 alt="Products Banner"
                 loading="lazy"
                 className="
@@ -23,9 +23,9 @@ const ProductsBanner = () => {
                 </h1>
                 <p className="
                     mt-[1rem]
-                    w-[50%]
+                    w-[45%]
                 ">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore mollitia blanditiis dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis ab. Provident, quae.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deseruunting, reiciendis id harum vero illo consectetur pariatur fugit adipisci mollitia blanditiis dicta, est, ex magni nisi Quae, voluptas.
                 </p>
             </div>
         </section>

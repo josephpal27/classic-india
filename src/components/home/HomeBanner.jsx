@@ -14,18 +14,18 @@ const HomeBanner = () => {
                 "
             />
             <div className="
-                w-full h-full absolute top-0 left-0 flex flex-col justify-end items-center text-white 
+                w-full h-full absolute top-0 left-0 flex flex-col justify-end text-white 
                 px-[6%]
                 pb-[7rem]
             ">
                 <h1>
-                    Lorem ipsum dolor sit
+                    Classic India
                 </h1>
                 <p className="
                     mt-[1rem]
-                    text-center w-[70%]
+                    w-[55%]
                 ">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore mollitia blanditiis dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis ab. Provident, quae.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore mollitia. Pariatur fugit adipisci dolore blanditiis dicta, est, ex magni nisi? Quae, voluptas.
                 </p>
             </div>
         </section>
