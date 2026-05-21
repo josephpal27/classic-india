@@ -5,7 +5,7 @@ const AboutBanner = () => {
             relative px-[1%]
         ">
             <img
-                src="/images/banners/about-banner.png"
+                src="/images/banners/about-banner.avif"
                 alt="About Banner"
                 loading="lazy"
                 className="

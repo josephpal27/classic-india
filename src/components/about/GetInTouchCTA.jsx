@@ -14,7 +14,7 @@ const GetInTouchCTA = () => {
             ">
                 <div className="w-[35%]">
                     <img
-                        src="/images/phone.jpg"
+                        src="/images/phone.avif"
                         alt="Phone"
                         loading="lazy"
                         className="w-full rounded-[30px]"

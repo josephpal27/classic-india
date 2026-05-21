@@ -8,7 +8,7 @@ const OfferCTA = () => {
             px-[1%]
         ">
             <div className="
-                bg-primary relative flex justify-between items-center flex-wrap bg-[url('/images/cta-bg.png')] bg-cover bg-bottom
+                bg-primary relative flex justify-between items-center flex-wrap bg-[url('/images/cta-bg.avif')] bg-cover bg-bottom
                 rounded-[30px]
                 px-[6%]
                 pb-[1rem]
@@ -17,7 +17,7 @@ const OfferCTA = () => {
                     w-[25%]
                 ">
                     <img
-                        src="/images/bottle.png"
+                        src="/images/bottle.avif"
                         alt="Bottles"
                         loading="lazy"
                         className="

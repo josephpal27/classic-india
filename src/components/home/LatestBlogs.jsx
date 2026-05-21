@@ -5,19 +5,19 @@ const blogsData = [
         id: 1,
         title: "Blog Title 1",
         desc: "Lorem ipsum dolor sit amet adipisicing. Laborum earum nemo incidunt nesciunt, harum suscipit vitae asperiores quos tenetur dicta.",
-        image: "/images/blogs/1.png",
+        image: "/images/blogs/1.avif",
     },
     {
         id: 2,
         title: "Blog Title 2",
         desc: "Lorem ipsum dolor sit amet adipisicing. Laborum earum nemo incidunt nesciunt, harum suscipit vitae asperiores quos tenetur dicta.",
-        image: "/images/blogs/2.png",
+        image: "/images/blogs/2.avif",
     },
     {
         id: 3,
         title: "Blog Title 3",
         desc: "Lorem ipsum dolor sit amet adipisicing. Laborum earum nemo incidunt nesciunt, harum suscipit vitae asperiores quos tenetur dicta.",
-        image: "/images/blogs/3.png",
+        image: "/images/blogs/3.avif",
     },
 ]
 

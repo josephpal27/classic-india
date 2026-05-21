@@ -6,7 +6,7 @@ const visionMissionData = [
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis, quae.",
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore.",
         ],
-        image: "/images/vision.png",
+        image: "/images/vision.avif",
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const visionMissionData = [
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis, quae.",
             "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore.",
         ],
-        image: "/images/mission.png",
+        image: "/images/mission.avif",
     },
 ]
 

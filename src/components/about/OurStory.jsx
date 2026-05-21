@@ -1,8 +1,8 @@
 const ourStoryData = [
-    { id: 1, image: "/images/our-story/1.png" },
-    { id: 2, image: "/images/our-story/2.png" },
-    { id: 3, image: "/images/our-story/3.png" },
-    { id: 4, image: "/images/our-story/4.png" },
+    { id: 1, image: "/images/our-story/1.avif" },
+    { id: 2, image: "/images/our-story/2.avif" },
+    { id: 3, image: "/images/our-story/3.avif" },
+    { id: 4, image: "/images/our-story/4.avif" },
 ]
 const OurStory = () => {
     return (

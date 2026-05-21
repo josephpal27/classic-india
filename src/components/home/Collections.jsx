@@ -35,7 +35,7 @@ const Collections = () => {
                 </div>
                 <div className="w-[30%]">
                     <img
-                        src="/images/diary.png"
+                        src="/images/diary.avif"
                         alt="Diary"
                         loading="lazy"
                         className="w-full"
