@@ -28,6 +28,21 @@ section {
     @apply px-[7%]
 }
 
+/* Swiper Customization */
+.swiper-wrapper {
+  align-items: stretch !important;
+}
+.swiper-slide {
+  height: auto !important;
+}
+
+.swiper-pagination-bullet{
+    @apply !bg-primary opacity-20 scale-125
+}
+.swiper-pagination-bullet-active{
+    @apply !bg-primary opacity-100
+}
+
 /* Footer Start */
 footer a{
     @apply block mb-[0.5rem] hover:text-primary

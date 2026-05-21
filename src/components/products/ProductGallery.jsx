@@ -9,7 +9,7 @@ const ProductGallery = ({ product }) => {
 
     return (
         <section className="
-            py-[4rem]
+            pt-[4rem]
             flex justify-between flex-wrap
         ">
 

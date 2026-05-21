@@ -2,6 +2,7 @@ import { productsData } from "@/data/productsData";
 import { notFound } from "next/navigation";
 import ProductDetailsBanner from "@/components/products/ProductDetailsBanner";
 import ProductGallery from "@/components/products/ProductGallery";
+import MostPrintedProducts from "@/components/products/MostPrintedProducts";
 
 // Generate static pages
 export async function generateStaticParams() {
@@ -46,6 +47,7 @@ export default async function ProductDetails({ params }) {
     <>
       <ProductDetailsBanner />
       <ProductGallery product={product} />
+      <MostPrintedProducts />
     </>
   );
 }
