@@ -4,8 +4,7 @@ const Footer = () => {
     return (
         <footer className="
             px-[7%]
-            bg-secondary
-            pt-[3rem]
+            bg-white
         ">
 
             <div className="flex justify-between flex-wrap">
@@ -56,7 +55,7 @@ const Footer = () => {
             <div className="
                 mt-[2rem]
                 py-[1rem]
-                border-t-[1px] border-[#bababa]
+                border-t-[2px] border-[#d3c7c7]
             ">
                 <p className="
                     text-center text-[0.9rem]

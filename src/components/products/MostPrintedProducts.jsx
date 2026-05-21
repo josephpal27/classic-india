@@ -10,7 +10,7 @@ import Button from "../Button";
 
 const MostPrintedProducts = () => {
     return (
-        <section className="pt-[5rem]">
+        <section className="pt-[5rem] mb-[-1rem]">
             <h3 className="text-primary">
                 Most Printed Products
             </h3>
