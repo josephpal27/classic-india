@@ -3,7 +3,6 @@ export const productsData = [
         id: 1,
         categoryId: 2,
         slug: "product-1",
-        // image: "/images/products/1.avif",
         images: [
             "/images/products/1.avif",
             "/images/products/2.avif",
@@ -17,7 +16,6 @@ export const productsData = [
         id: 2,
         categoryId: 3,
         slug: "product-2",
-        // image: "/images/products/2.avif",
         images: [
             "/images/products/2.avif",
             "/images/products/1.avif",
@@ -31,7 +29,6 @@ export const productsData = [
         id: 3,
         categoryId: 2,
         slug: "product-3",
-        // image: "/images/products/3.avif",
         images: [
             "/images/products/3.avif",
             "/images/products/1.avif",
@@ -45,7 +42,6 @@ export const productsData = [
         id: 4,
         categoryId: 4,
         slug: "product-4",
-        // image: "/images/products/4.avif",
         images: [
             "/images/products/4.avif",
             "/images/products/1.avif",
@@ -59,7 +55,6 @@ export const productsData = [
         id: 5,
         categoryId: 5,
         slug: "product-5",
-        // image: "/images/products/5.avif",
         images: [
             "/images/products/5.avif",
             "/images/products/1.avif",

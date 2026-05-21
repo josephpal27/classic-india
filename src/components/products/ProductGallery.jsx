@@ -22,9 +22,9 @@ const ProductGallery = ({ product }) => {
                 ">
                     <img
                         src={product.images[activeImage]}
-                        alt="Product Image"
+                        alt={product.title}
                         loading="lazy"
-                        className="w-full"
+                        className="w-full aspect-[3/2] object-cover"
                     />
                 </div>
                 <div className="
@@ -34,14 +34,14 @@ const ProductGallery = ({ product }) => {
                         <img
                             key={index}
                             src={img}
-                            alt="Product Image"
+                            alt={product.title}
                             loading="lazy"
                             onClick={() => setActiveImage(index)}
                             className={`
-                                w-[23.5%] rounded-[20px] cursor-pointer transition
+                                w-[23.5%] rounded-[20px] cursor-pointer transition aspect-[3/2] object-cover
                                 ${activeImage === index
                                     ? "ring-2 ring-primary"
-                                    : "opacity-80 hover:opacity-100"
+                                    : "opacity-95 hover:opacity-100"
                                 }
                             `}
                         />
