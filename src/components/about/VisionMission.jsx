@@ -22,13 +22,13 @@ const visionMissionData = [
 const VisionMission = () => {
     return (
         <section className="
-            py-[5rem]
+            py-[5rem] sm:py-[3rem] lg:py-[4rem] xl:py-[4.5rem] 2xl:py-[5rem] 
         ">
             {visionMissionData.map((item) => {
                 return (
                     <div key={item.id} className={`
                         flex justify-between flex-wrap
-                        ${item.id % 2 === 0 ? 'flex-row-reverse mt-[3rem]' : ''}
+                        ${item.id % 2 === 0 ? 'flex-row-reverse mt-[3rem] sm:mt-[2.5rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]' : ''}
                     `}>
                         <div className="
                             w-[35%]
@@ -37,7 +37,7 @@ const VisionMission = () => {
                                 src={item.image}
                                 alt={item.title}
                                 loading="lazy"
-                                className="w-full rounded-[30px]"
+                                className="w-full rounded-[30px] sm:rounded-[25px] lg:rounded-[24px] xl:rounded-[27px] 2xl:rounded-[30px]"
                             />
                         </div>
                         <div className="
