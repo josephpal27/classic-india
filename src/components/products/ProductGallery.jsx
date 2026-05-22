@@ -9,7 +9,7 @@ const ProductGallery = ({ product }) => {
 
     return (
         <section className="
-            pt-[4rem]
+            pt-[4rem] sm:pt-[3rem] lg:pt-[3rem] xl:pt-[3.5rem] 2xl:pt-[4rem] 
             flex justify-between flex-wrap
         ">
 
@@ -18,7 +18,7 @@ const ProductGallery = ({ product }) => {
                 w-[45%]
             ">
                 <div className="
-                    rounded-[30px] overflow-hidden
+                    rounded-[30px] sm:rounded-[25px] lg:rounded-[24px] xl:rounded-[27px] 2xl:rounded-[30px] overflow-hidden
                 ">
                     <img
                         src={product.images[activeImage]}
@@ -28,7 +28,8 @@ const ProductGallery = ({ product }) => {
                     />
                 </div>
                 <div className="
-                    flex justify-between mt-[0.8rem]
+                    flex justify-between 
+                    mt-[0.8rem] sm:mt-[0.8rem] lg:mt-[0.6rem] xl:mt-[0.7rem] 2xl:mt-[0.8rem] 
                 ">
                     {product.images.map((img, index) => (
                         <img
@@ -38,7 +39,9 @@ const ProductGallery = ({ product }) => {
                             loading="lazy"
                             onClick={() => setActiveImage(index)}
                             className={`
-                                w-[23.5%] rounded-[20px] cursor-pointer transition aspect-[3/2] object-cover
+                                w-[23.5%] 
+                                rounded-[20px] sm:rounded-[15px] lg:rounded-[14px] xl:rounded-[17px] 2xl:rounded-[20px]
+                                cursor-pointer transition aspect-[3/2] object-cover
                                 ${activeImage === index
                                     ? "ring-2 ring-primary"
                                     : "opacity-95 hover:opacity-100"

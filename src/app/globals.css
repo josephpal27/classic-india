@@ -37,7 +37,7 @@ section {
 }
 
 .swiper-pagination-bullet{
-    @apply !bg-primary opacity-20 scale-125
+    @apply !bg-primary opacity-20 scale-125 lg:scale-110 xl:scale-125
 }
 .swiper-pagination-bullet-active{
     @apply !bg-primary opacity-100

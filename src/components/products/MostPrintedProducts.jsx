@@ -10,7 +10,10 @@ import Button from "../Button";
 
 const MostPrintedProducts = () => {
     return (
-        <section className="pt-[5rem] mb-[-1rem]">
+        <section className="
+            pt-[5rem] sm:pt-[3.5rem] lg:pt-[4rem] xl:pt-[4.5rem] 2xl:pt-[5rem] 
+            mb-[-1rem]
+        ">
             <h3 className="text-primary">
                 Most Printed Products
             </h3>
@@ -19,7 +22,7 @@ const MostPrintedProducts = () => {
             </p>
 
             {/* Slider */}
-            <div className="mt-[3rem]">
+            <div className="mt-[2rem] sm:mt-[2.5rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]">
                 <Swiper
                     modules={[Autoplay, Pagination]}
                     slidesPerView={4}
@@ -59,7 +62,7 @@ const MostPrintedProducts = () => {
                                 bg-secondary hover:bg-[#e6e2ce]
                                 w-full transition duration-300
                                 rounded-[20px] 
-                                p-[1rem]
+                                p-[1rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
                                 group
                             ">
                                 <Link href={`/products/${product.slug}`} key={index}>
@@ -74,10 +77,16 @@ const MostPrintedProducts = () => {
                                             "
                                         />
                                     </div>
-                                    <span className="text-[1.2rem] font-bold block mt-[1rem]">
+                                    <span className="
+                                        text-[1.2rem] sm:text-[1.1rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem]
+                                        font-bold block mt-[1rem]
+                                    ">
                                         {product.title}
                                     </span>
-                                    <p className="text-[0.9rem] mt-[0.5rem]">
+                                    <p className="
+                                        text-[0.9rem] sm:text-[1rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
+                                        mt-[0.5rem]
+                                    ">
                                         {product.desc}
                                     </p>
                                     <div className="text-primary mt-[0.8rem]">
