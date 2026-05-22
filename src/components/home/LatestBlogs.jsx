@@ -24,7 +24,7 @@ const blogsData = [
 const LatestBlogs = () => {
     return (
         <section className="
-            pt-[4rem]
+            pt-[2rem] sm:pt-[3rem] lg:pt-[3rem] xl:pt-[3.5rem] 2xl:pt-[4rem]
         ">
 
             <div className="
@@ -43,13 +43,13 @@ const LatestBlogs = () => {
 
             <div className="
                 flex justify-between flex-wrap
-                mt-[3rem]
+                mt-[2rem] sm:mt-[2.5rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem] 
             ">
                 {blogsData.map((blog, index) => {
                     return (
                         <div key={index} className="
                             w-[31%] bg-primary overflow-hidden
-                            rounded-[40px]
+                            rounded-[40px] sm:rounded-[30px] lg:rounded-[34px] xl:rounded-[37px] 2xl:rounded-[40px]
                         ">
                             <div>
                                 <img
@@ -60,15 +60,16 @@ const LatestBlogs = () => {
                                 />
                             </div>
                             <div className="
-                                p-[2rem] text-white
+                                p-[2rem] sm:p-[1.8rem] lg:p-[1.6rem] xl:p-[1.8rem] 2xl:p-[2rem]
+                                text-white
                             ">
                                 <span className="
-                                    text-[1.2rem] block
+                                    text-[1.2rem] sm:text-[1.2rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem] block
                                 ">
                                     {blog.title}
                                 </span>
                                 <p className="
-                                    text-[0.9rem]
+                                    text-[0.9rem] sm:text-[0.9rem] lg:text-[0.7rem] xl:text-[0.8rem] 2xl:text-[0.9rem]
                                     mt-[0.7rem]
                                 ">
                                     {blog.desc}
