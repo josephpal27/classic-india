@@ -3,7 +3,7 @@ import Button from "../Button"
 const Collections = () => {
     return (
         <section className="
-            pt-[2rem] sm:pt-[3rem] lg:pt-[3rem] xl:pt-[3.5rem] 2xl:pt-[4rem] overflow-hidden
+            pt-[1rem] sm:pt-[3rem] lg:pt-[3rem] xl:pt-[3.5rem] 2xl:pt-[4rem] overflow-hidden
         ">
             <div className="
                 flex flex-col items-center justify-center
@@ -13,7 +13,7 @@ const Collections = () => {
                 </h2>
                 <p className="
                     mt-[0.5rem]
-                    text-center w-[70%]
+                    text-center w-full lg:w-[70%]
                 ">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum nemo incidunt nesciunt, harum suscipit vitae asperiores quos tenetur dicta. Lorem ipsum dolor sit amet.
                 </p>
