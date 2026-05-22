@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={`${oliGrostesk.variable}`}>
       <body>
         <Navbar />
-        <div className="mt-[105px] sm:mt-[105px] lg:mt-[85px] xl:mt-[95px] 2xl:mt-[105px]"></div>
+        <div className="mt-[80px] sm:mt-[105px] lg:mt-[85px] xl:mt-[95px] 2xl:mt-[105px]"></div>
         {children}
         <Footer />
       </body>

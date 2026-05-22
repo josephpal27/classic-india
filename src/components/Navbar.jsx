@@ -68,7 +68,7 @@ const Navbar = () => {
         <>
             <nav className={`
                 fixed top-0 left-0 w-full z-50 bg-white
-                h-[100px] sm:h-[100px] lg:h-[80px] xl:h-[90px] 2xl:h-[100px]
+                h-[80px] sm:h-[100px] lg:h-[80px] xl:h-[90px] 2xl:h-[100px]
                 px-[1rem] sm:px-[5%] lg:px-[7%]
                 transition-transform duration-300 ease-in-out
                 ${visible ? "translate-y-0" : "-translate-y-full"}
@@ -80,7 +80,7 @@ const Navbar = () => {
                         <img
                             src="/images/logo/logo.png"
                             alt="Classic India"
-                            className="w-[130px] sm:w-[100px] lg:w-[110px] xl:w-[120px] 2xl:w-[130px]"
+                            className="w-[110px] sm:w-[100px] lg:w-[110px] xl:w-[120px] 2xl:w-[130px]"
                         />
                     </Link>
 
@@ -144,8 +144,8 @@ const Navbar = () => {
 
             {/* Drawer */}
             <div className={`fixed top-0 left-0 h-full w-[70%] max-w-sm bg-[#f7f7f7] z-50 shadow-lg transform transition-transform duration-500 ${open ? "translate-x-0" : "-translate-x-full"}`}>
-                <div className="flex justify-between items-center p-4 border-b">
-                    <img src="/images/logo/logo.png" alt="Classic India" className="w-[100px]" />
+                <div className="flex justify-between items-center px-[1rem] py-[1.5rem] border-b">
+                    <img src="/images/logo/logo.png" alt="Classic India" className="w-[110px]" />
                     <button onClick={() => setOpen(false)}>
                         <FiX size={24} />
                     </button>
@@ -162,7 +162,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="p-[1rem] mt-[0.5rem]" onClick={() => setOpen(false)}>
-                    <Link href="/contact/" className="bg-primary text-white font-semibold px-5 py-2.5 rounded-full">
+                    <Link href="/contact/" className="bg-primary text-white px-5 py-2.5 rounded-full">
                         Get In Touch
                     </Link>
                 </div>

@@ -3,7 +3,7 @@ import Link from "next/link"
 const Footer = () => {
     return (
         <footer className="
-            px-[1rem] sm:px-[5%] lg:px-[7%] bg-white
+            px-[1rem] sm:px-[5%] lg:px-[7%] bg-white overflow-hidden
         ">
 
             <div className="flex justify-between flex-wrap">

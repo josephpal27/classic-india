@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
     return (
         <section className="
             mt-[4rem] sm:mt-[3rem] lg:mt-[3rem] xl:mt-[3.5rem] 2xl:mt-[4rem]
-            px-[1rem] sm:px-[1%]
+            px-[1rem] sm:px-[1%] overflow-hidden
         ">
             <div className="
                 flex justify-between items-center flex-wrap bg-secondary
