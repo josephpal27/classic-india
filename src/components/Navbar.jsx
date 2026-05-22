@@ -68,8 +68,8 @@ const Navbar = () => {
         <>
             <nav className={`
                 fixed top-0 left-0 w-full z-50 bg-white
-                h-[100px]
-                px-[1rem] sm:px-[7%]
+                h-[100px] sm:h-[100px] lg:h-[80px] xl:h-[90px] 2xl:h-[100px]
+                px-[1rem] sm:px-[5%] lg:px-[7%]
                 transition-transform duration-300 ease-in-out
                 ${visible ? "translate-y-0" : "-translate-y-full"}
             `}>
@@ -80,14 +80,14 @@ const Navbar = () => {
                         <img
                             src="/images/logo/logo.png"
                             alt="Classic India"
-                            className="w-[130px]"
+                            className="w-[130px] sm:w-[100px] lg:w-[110px] xl:w-[120px] 2xl:w-[130px]"
                         />
                     </Link>
 
                     {/* Center Links */}
                     <ul className="
                         hidden md:flex absolute left-1/2 -translate-x-1/2 items-center 
-                        gap-[2rem]
+                        gap-[2rem] sm:gap-[1.5rem] lg:gap-[1.6rem] xl:gap-[1.8rem] 2xl:gap-[2rem]
                     ">
                         {navLinks.map((link) => {
                             const isActive = pathname === link.href;
@@ -97,8 +97,8 @@ const Navbar = () => {
                                         href={link.href}
                                         className={`
                                             relative
-                                            px-[1.3rem]
-                                            py-[0.5rem]
+                                            px-[1.3rem] sm:px-[1.2rem] lg:px-[1.1rem] xl:px-[1.2rem] 2xl:px-[1.3rem]
+                                            py-[0.5rem] sm:py-[0.5rem] lg:py-[0.4rem] xl:py-[0.45rem] 2xl:py-[0.5rem]
                                             rounded-full transition-colors duration-200
                                         ${isActive
                                                 ? "bg-primary text-white"
@@ -118,8 +118,8 @@ const Navbar = () => {
                             href="/contact/"
                             className="
                                 bg-primary hover:bg-[#a90b2d] text-white 
-                                px-5 
-                                py-2.5 
+                                px-5
+                                py-[0.7rem] sm:py-[0.6rem] lg:py-[0.6rem] xl:py-[0.65rem] 2xl:py-[0.7rem]
                                 rounded-full transition-colors duration-200
                             "
                         >
