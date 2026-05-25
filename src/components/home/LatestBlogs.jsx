@@ -78,7 +78,7 @@ const LatestBlogs = () => {
                                 <div className="
                                     mt-[0.8rem] lg:mt-[1.5rem]
                                 ">
-                                    <Button label="Read More" color="white" className="scale-[0.8] lg:scale-[1] ml-[-0.8rem] lg:ml-0" />
+                                    <Button label="Read More" color="white" />
                                 </div>
                             </div>
                         </div>
