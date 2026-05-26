@@ -12,7 +12,7 @@ const Footer = () => {
                         src="/images/logo/logo.png"
                         alt="Classic India"
                         loading="lazy"
-                        className="w-[120px] sm:w-[140px] lg:w-[150px] xl:w-[160px] 2xl:w-[170px]"
+                        className="w-[130px] sm:w-[140px] lg:w-[150px] xl:w-[160px] 2xl:w-[170px]"
                     />
                     <p className="
                         mt-[1.2rem] lg:mt-[2rem]
