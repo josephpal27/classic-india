@@ -4,7 +4,7 @@ const OfferCTA = () => {
     return (
         <section className="
             mt-[11rem] sm:mt-[15rem] lg:mt-[15rem] xl:mt-[16rem] 2xl:mt-[17rem] 
-            mb-[4rem] sm:mb-[3rem] lg:mb-[4rem] xl:mb-[4.5rem] 2xl:mb-[5rem] 
+            mb-[3rem] sm:mb-[3.5rem] lg:mb-[4rem] xl:mb-[4.5rem] 2xl:mb-[5rem] 
             px-[1rem] sm:px-[1%]
         ">
             <div className="
@@ -32,9 +32,9 @@ const OfferCTA = () => {
                 <div className="
                     w-full lg:w-[55%]
                     text-white
-                    mt-[-3rem] lg:mt-0
+                    mt-[-3.5rem] lg:mt-0
                 ">
-                    <span className="text-[1.7rem] sm:text-[2rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem] font-bold">
+                    <span className="text-[1.5rem] sm:text-[2rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem] font-bold">
                         Lorem ipsum dolor
                     </span>
                     <p className="mt-[0.5rem] lg:mt-[1rem]">
