@@ -26,7 +26,7 @@ const AboutBanner = () => {
                     mt-[1.5rem] lg:mt-[1rem]
                     w-full lg:w-[50%] lg:text-white
                 ">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore mollitia blanditiis dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis ab. Provident, quae.
+                    Classic India is a corporate gifting and merchandise company built on a simple understanding: a thoughtful gesture can strengthen a professional relationship. Over the years, we have grown by working closely with businesses to understand how they recognise people, build relationships and represent their brands. Our approach combines experience with an evolving understanding of what modern businesses expect from their gifting and merchandise partners.
                 </p>
             </div>
         </section>

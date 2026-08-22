@@ -17,7 +17,7 @@ const Footer = () => {
                     <p className="
                         mt-[1.2rem] lg:mt-[2rem]
                     ">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis praesentium quaerat sequi ea sit dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, voluptate.
+                        Crafting premium corporate gifts for every occasion. From branded drinkware to bespoke gift sets, we help brands make every gesture memorable.
                     </p>
                 </div>
                 <div className="w-full lg:w-[45%] flex justify-between flex-wrap">

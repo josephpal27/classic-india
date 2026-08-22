@@ -8,14 +8,14 @@ const Collections = () => {
             <div className="
                 flex flex-col items-center justify-center
             ">
-                <h2 className="text-primary">
-                    Products
+                <h2 className="text-primary text-center leading-[1.3]">
+                    Products Designed for <br /> Every Corporate Occasion
                 </h2>
                 <p className="
-                    mt-[0.5rem]
-                    text-center w-full lg:w-[70%]
+                    mt-[1.3rem]
+                    text-center w-full lg:w-[50%]
                 ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum nemo incidunt nesciunt, harum suscipit vitae asperiores quos tenetur dicta. Lorem ipsum dolor sit amet.
+                    Explore a versatile range of products that can be customised to suit your brand, audience and gifting requirements.
                 </p>
             </div>
 
@@ -31,7 +31,7 @@ const Collections = () => {
                         Leather <br /> Diary
                     </span>
                     <p className="mt-[1.5rem]">
-                        Lorem ipsum dolor sit amet, adipisicing elit. Nemo et omnis ipsam quam voluptatum omnis odio expedita odit adipisci dolor.
+                        A premium leather diary crafted for everyday professional use. Customisable with your brand, it makes a lasting impression with every note written.
                     </p>
                 </div>
                 <div className="w-[29%]">
@@ -61,13 +61,19 @@ const Collections = () => {
                         [&_li]:mb-[1rem]
                     ">
                         <li>
-                            Lorem ipsum dolor sit, amet consectetur voluptatum adipisicing.
+                            Customisable branding
                         </li>
                         <li>
-                            Lorem ipsum dolor sit, amet consectetur voluptatum adipisicing.
+                            Multiple sizes and formats
                         </li>
                         <li>
-                            Lorem ipsum dolor sit, amet consectetur voluptatum adipisicing.
+                            Designed for everyday professional use
+                        </li>
+                        <li>
+                            Suitable for employee and client gifting
+                        </li>
+                        <li>
+                            Available with customised packaging
                         </li>
                     </ol>
                     <div className="text-primary mt-[2rem] sm:mt-[1.5rem] lg:mt-[1.7rem] xl:mt-[1.8rem] 2xl:mt-[2rem] ">

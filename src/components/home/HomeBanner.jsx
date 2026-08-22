@@ -20,13 +20,13 @@ const HomeBanner = () => {
                 mt-[-3.3rem] lg:mt-0
             ">
                 <h1 className="text-white pl-[1rem] lg:pl-0">
-                    Classic India
+                    Corporate Gifting, <br /> Built Around Your Brand
                 </h1>
                 <p className="
                     mt-[1.5rem] lg:mt-[1rem]
                     w-full lg:w-[55%] lg:text-white
                 ">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore mollitia. Pariatur fugit adipisci dolore blanditiis dicta, est, ex magni nisi? Quae, voluptas.
+                    With decades of experience in corporate gifting and customised merchandise, Classic India helps businesses create thoughtful, practical and professionally branded gifts for employees, clients, partners and events. From diaries and stationery to bags, drinkware, travel essentials, gift sets and customised packaging, we bring products, personalisation and presentation together under one roof.
                 </p>
             </div>
         </section>

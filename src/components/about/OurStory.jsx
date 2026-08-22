@@ -21,10 +21,10 @@ const OurStory = () => {
                         Our Story
                     </h2>
                     <p className="mt-[1rem]">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis ab. Provident, quae.
+                        What began with a focus on serving the needs of businesses has grown into a longstanding association with corporate gifting and branded merchandise. Over the years, markets have changed, workplaces have evolved and the meaning of corporate gifting has expanded.
                     </p>
                     <p className="mt-[1rem]">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur dolore dicta Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit.
+                        Through it all, our focus has remained consistent—understanding our clients, adapting to their requirements and creating solutions that feel relevant to the people they are meant for.
                     </p>
                 </div>
                 <div className="w-[40%] flex justify-between flex-wrap mt-[0.7rem]">

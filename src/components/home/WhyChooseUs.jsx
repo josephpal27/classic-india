@@ -1,23 +1,23 @@
 const whyUsData = [
     {
         id: 1,
-        title: "Lorem ipsum dolor sit",
-        desc: "Lorem ipsum dolor sit, amet elitfhdy. Repellendus distinctio ea, nobis facere delectus vitae aliquid eveniet, maiores odio consectetur. lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        title: "Extensive Product Range",
+        desc: "From stationery and diaries to bags, drinkware, travel accessories and curated gift sets, find products for diverse corporate requirements.",
     },
     {
         id: 2,
-        title: "Lorem ipsum dolor sit",
-        desc: "Lorem ipsum dolor sit, amet elitfhdy. Repellendus distinctio ea, nobis facere delectus vitae aliquid eveniet, maiores odio consectetur. lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        title: "Customisation & Branding",
+        desc: "Add your brand identity through customised products, packaging, inserts, tags and other finishing details.",
     },
     {
         id: 3,
-        title: "Lorem ipsum dolor sit",
-        desc: "Lorem ipsum dolor sit, amet elitfhdy. Repellendus distinctio ea, nobis facere delectus vitae aliquid eveniet, maiores odio consectetur. lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        title: "Corporate-Focused Solutions",
+        desc: "Whether it is employee onboarding, client appreciation, conferences or festive gifting, we help you select products around the occasion and audience.",
     },
     {
         id: 4,
-        title: "Lorem ipsum dolor sit",
-        desc: "Lorem ipsum dolor sit, amet elitfhdy. Repellendus distinctio ea, nobis facere delectus vitae aliquid eveniet, maiores odio consectetur. lorem ipsum dolor sit amet consectetur adipisicing elit.",
+        title: "End-to-End Gifting",
+        desc: "Bring product selection, customisation, packaging and presentation together for a more seamless gifting experience.",
     },
 ]
 
@@ -37,10 +37,10 @@ const WhyChooseUs = () => {
                     w-full lg:w-[45%]
                 ">
                     <h3 className="text-primary leading-[1.3]">
-                        Why <br /> Choose Us
+                        Why Choose <br /> Classic India?
                     </h3>
                     <p className="mt-[1rem]">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus distinctio ea, nobis facere delectus vitae aliquid eveniet, maiores odio consectetur at necessitatibus libero ipsum veniam dolorem atque dignissimos, recusandae natus.
+                        Corporate gifting is more than selecting a product. It is about choosing something useful, presenting it thoughtfully and ensuring that every detail reflects your brand. With a wide product range and customisation capabilities, Classic India helps you create gifting solutions that are purposeful, professional and suited to your specific requirements.
                     </p>
                 </div>
                 <div className="

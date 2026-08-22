@@ -37,7 +37,7 @@ const LatestBlogs = () => {
                     mt-[0.5rem]
                     text-center w-full lg:w-[70%]
                 ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum nemo incidunt nesciunt, harum suscipit vitae asperiores quos tenetur dicta. Lorem ipsum dolor sit amet.
+                    Explore useful perspectives on corporate gifting, branded merchandise, employee engagement, business occasions and choosing products that make a lasting impression.
                 </p>
             </div>
 

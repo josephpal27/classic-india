@@ -22,13 +22,13 @@ const GetInTouchCTA = () => {
                 </div>
                 <div className="w-[60%]">
                     <h4 className="text-primary">
-                        Get In Touch
+                        Let’s Create Something Worth Giving.
                     </h4>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis ab. Provident, quae.
+                        Have a corporate gifting requirement, a custom merchandise idea or an upcoming event to plan for? Tell us what you have in mind, and let’s explore the possibilities together.
                     </p>
                     <div className="text-primary mt-[2rem]">
-                        <Button label="Contact Now" color="var(--primary)" />
+                        <Button label="Get in touch with Classic India." color="var(--primary)" />
                     </div>
                 </div>
             </div>

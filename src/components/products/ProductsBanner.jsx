@@ -25,7 +25,7 @@ const ProductsBanner = () => {
                     mt-[1rem]
                     w-[45%]
                 ">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deseruunting, reiciendis id harum vero illo consectetur pariatur fugit adipisci mollitia blanditiis dicta, est, ex magni nisi Quae, voluptas.
+                    Explore Classic India’s diverse range of corporate gifting and branded merchandise, created to meet the varied needs of modern businesses. From everyday office essentials and premium stationery to bags, drinkware, travel accessories, gift sets and customised merchandise, our collection brings together products that can be thoughtfully selected and personalised for employees, clients, events and business occasions.
                 </p>
             </div>
         </section>

@@ -3,8 +3,7 @@ const visionMissionData = [
         id: 1,
         title: 'Our Vision',
         desc: [
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis, quae.",
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore.",
+            "We envision building a brand that businesses return to whenever they want to recognise, appreciate, welcome or connect with people. As corporate gifting continues to evolve, we aspire to stay relevant through thoughtful ideas, dependable partnerships and a constant understanding of what makes a gesture meaningful.",
         ],
         image: "/images/vision.avif",
     },
@@ -12,8 +11,7 @@ const visionMissionData = [
         id: 2,
         title: 'Our Mission',
         desc: [
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore dicta, est, ex magni nisi? Quae, voluptas. Lorem ipsum dolor, sit amet consectetur elit. In ipsa itaque facilis, quae.",
-            "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt, reiciendis id harum vero illo consectetur pariatur fugit adipisci asperiores dolore.",
+            "Our mission is to help businesses turn everyday corporate gestures into experiences that people value. We aim to understand the purpose behind every requirement and bring together thoughtful choices, considered details and dependable execution to create gifting that reflects the intent behind it.",
         ],
         image: "/images/mission.avif",
     },

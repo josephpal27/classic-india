@@ -34,11 +34,11 @@ const OfferCTA = () => {
                     text-white
                     mt-[-3.5rem] lg:mt-0
                 ">
-                    <span className="text-[1.5rem] sm:text-[2rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem] font-bold">
-                        Lorem ipsum dolor
+                    <span className="text-[1.5rem] sm:text-[2rem] lg:text-[3.2rem] xl:text-[3.6rem] 2xl:text-[4rem] font-bold leading-[1.3]">
+                        Carry Your Brand <br /> Into Every Day
                     </span>
-                    <p className="mt-[0.5rem] lg:mt-[1rem]">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum earum nemo incidunt nesciunt, harum suscipit vitae quos dicta. Lorem ipsum dolor.
+                    <p className="mt-[0.5rem] lg:mt-[1.5rem]">
+                        Turn an everyday essential into a branded experience with customised bottles designed for employee gifting, corporate events, client appreciation and everyday merchandise.
                     </p>
                     <div className="mt-[1rem] lg:mt-[2rem]">
                         <Button label="Read More" color="white" />
