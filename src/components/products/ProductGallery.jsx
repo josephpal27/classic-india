@@ -57,7 +57,7 @@ const ProductGallery = ({ product }) => {
                 w-[50%]
             ">
                 <h2>
-                    Leather Diary
+                    {product.title}
                 </h2>
                 <p className="
                     mt-[1rem]
