@@ -6,6 +6,6 @@ export const categoryData = [
   { id: 5, name: "Bags" },
   { id: 6, name: "Printing Items" },
   { id: 7, name: "Table Top Items" },
-  { id: 8, name: "Other Corporate Gift Items" },
-  { id: 9, name: "Corporate Gift Set" },
+  { id: 8, name: "Corporate Gift Set" },
+  { id: 9, name: "Other Corporate Gift Items" },
 ];
