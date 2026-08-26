@@ -60,15 +60,15 @@ const ProductsListing = () => {
 
             {/* Products */}
             <div className="
-                w-[71%] flex flex-wrap gap-[2%]
+                w-[71%] flex flex-wrap gap-x-[2%]
             ">
                 {filteredProducts.length > 0 ? (
                     filteredProducts.map((product, index) => (
                         <Link href={`/products/${product.slug}`} key={index} className="
-                            w-[32%] h-max bg-secondary hover:bg-[#e6e2ce] transition duration-300
+                            w-[32%] h-fit bg-secondary hover:bg-[#e6e2ce] transition duration-300
                             rounded-[20px] 
                             p-[1rem] sm:p-[1rem] lg:p-[0.8rem] xl:p-[0.9rem] 2xl:p-[1rem]
-                            mb-[0.3rem]
+                            mb-[1.3rem]
                             group
                         ">
                             <div className="rounded-[15px] overflow-hidden">

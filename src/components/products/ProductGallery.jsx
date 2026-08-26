@@ -35,7 +35,7 @@ const ProductGallery = ({ product }) => {
                         <img
                             key={index}
                             src={img}
-                            alt={product.title}
+                            alt={`${product.title} ${index+1}`}
                             loading="lazy"
                             onClick={() => setActiveImage(index)}
                             className={`
