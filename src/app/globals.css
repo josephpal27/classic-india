@@ -48,3 +48,17 @@ footer a{
     @apply block mb-[0.5rem] hover:text-primary
 }
 /* Footer End */
+
+/* Contact Form Start */
+.contact_form label{
+    @apply block text-[1rem] sm:text-[1.1rem] lg:text-[0.9rem] xl:text-[1rem] 2xl:text-[1.1rem] font-semibold
+}
+.contact_form input,
+.contact_form textarea{
+    @apply block w-full outline-none text-[1.1rem] sm:text-[1.2rem] lg:text-[1rem] xl:text-[1.1rem] 2xl:text-[1.2rem] bg-transparent mt-[1.5rem] mb-[3rem] pb-[0.3rem] border-b-[2px] border-[#cfcbae]
+}
+.contact_form input:focus,
+.contact_form textarea:focus{
+    @apply border-[#a7a283]
+}
+/* Contact Form End */

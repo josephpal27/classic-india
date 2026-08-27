@@ -35,11 +35,11 @@ const ContactDetails = () => {
             <h2>
                 Get In Touch
             </h2>
-            <p>
+            <p className="mt-[1rem] lg:mt-[0.5rem]">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae odio deleniti error, officiis reiciendis nobis aliquid ut iusto expedita tenetur.
             </p>
 
-            <div className="mt-[2rem] sm:mt-[2.5rem] lg:mt-[2.6rem] xl:mt-[2.8rem] 2xl:mt-[3rem]">
+            <div className="mt-[2rem] sm:mt-[2.5rem] lg:mt-[3.1rem] xl:mt-[3.3rem] 2xl:mt-[3.5rem]">
                 {contactData.map((item, index) => {
                     return(
                         <div key={index} className="flex gap-[1.2rem] mb-[2rem]">

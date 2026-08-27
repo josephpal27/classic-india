@@ -10,7 +10,7 @@ const GetInTouch = () => {
             <div className="w-[47%]">
                 <ContactDetails />
             </div>
-            <div className="w-[47%]">
+            <div className="w-[45%]">
                 <ContactForm />
             </div>
         </section>
